@@ -6,7 +6,7 @@ SOAP can be carried over a variety of standard protocols, including the web-rela
 ** to see more about soap  : https://www.guru99.com/soap-simple-object-access-protocol.html **.
 
 And 
-user AEROSPIKE database which is nosql database .
+used AEROSPIKE database which is nosql database .
 
 
 ** to see more about aerospike :https://developer.aerospike.com".
