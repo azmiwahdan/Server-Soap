@@ -40,4 +40,11 @@ public class UserController {
         return response;
     }
 
+    @PayloadRoot(namespace = NAMESPACE_URI, localPart = "updateUserRequest")
+    @ResponsePayload
+    public UpdateUserResponse updateUser(@RequestPayload UpdateUserRequest request) {
+        UpdateUserResponse response = new UpdateUserResponse();
+        response.setUser(userService.updateUser(request.getId(), request.getName(), request.getDevice()));
+        return response;
+    }
 }
