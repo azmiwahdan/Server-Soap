@@ -1,0 +1,49 @@
+//postman is a rest client , but we can use it as soap client by do a little changes , like always using POST MEHTOD .
+//URL:http://localhost:8080/server.
+{
+	"info": {
+		"_postman_id": "9f94833d-fc38-453b-94fe-b6e556075430",
+		"name": "second project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20304005"
+	},
+	"item": [
+		{
+			"name": "server one - soap server",
+			"item": [
+				{
+					"name": "get user",
+					"request": {
+						"method": "POST",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "add user",
+					"request": {
+						"method": "POST",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete User",
+					"request": {
+						"method": "POST",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "update user",
+					"request": {
+						"method": "POST",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
