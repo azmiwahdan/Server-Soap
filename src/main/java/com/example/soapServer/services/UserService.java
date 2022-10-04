@@ -29,7 +29,7 @@ public class UserService {
 
     public User getUser(int id) {
         Optional<User> user = userRepository.findById(id);
-        return user.orElseGet(() -> new User(00, "non-existing user", "non-device"));
+        return user.orElseGet(() -> new User(0, "non-existing user", "non-device"));
     }
 
     public String addUser(int id, String name, String device) {
